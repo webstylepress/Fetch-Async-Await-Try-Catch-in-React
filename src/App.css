@@ -1,0 +1,31 @@
+body {
+  padding: 20px;
+}
+
+.App {
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.grid .item {
+  width: 100%;
+  background-color: #eee;
+  margin-bottom: 4px;
+  border: 1px solid #ccc;
+}
+
+.grid .item > span {
+  margin: auto auto;
+  position: absolute !important;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
